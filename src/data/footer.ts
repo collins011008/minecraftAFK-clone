@@ -6,15 +6,15 @@ export const FOOTERDATA: FooterItemProps[] = [
         detail: [
             {
                 item: 'Privacy Policy',
-                url: ''
+                url: '/legal/privacy'
             },
             {
                 item: 'Terms of Service',
-                url: ''
+                url: '/legal/tos'
             },
             {
                 item: 'Manage subscription',
-                url: ''
+                url: '/'
             },
         ]
     },
@@ -23,15 +23,15 @@ export const FOOTERDATA: FooterItemProps[] = [
         detail: [
             {
                 item: "Parents guide",
-                url: ""
+                url: "/"
             },
             {
                 item: "Get shards on DonutSMP",
-                url: ""
+                url: "/"
             },
             {
                 item: "Get rich on any server",
-                url: ""
+                url: "/"
             },
         ]
     },
@@ -40,19 +40,19 @@ export const FOOTERDATA: FooterItemProps[] = [
         detail: [
             {
                 item: "AFK Console Client Web",
-                url: ""
+                url: "/"
             },
             {
                 item: "AFK Console Client Local",
-                url: ""
+                url: "/"
             },
             {
                 item: "TouchGrass Store",
-                url: ""
+                url: "/"
             },
             {
                 item: "Bookshelf",
-                url: ""
+                url: "/"
             },
         ]
     }

@@ -13,7 +13,7 @@ export default function Footer() {
                             <Flex gap={'1rem'} flexDir={'column'}>
                                 {
                                     item.detail.map((value, idx) => (
-                                        <Text color={"white"} fontSize={'14px'} key={`footer_detail_${idx}`} textDecorationLine={'underline'} cursor={'pointer'}>{value.item}</Text>
+                                        <Text color={"white"} fontSize={'14px'} key={`footer_detail_${idx}`} textDecorationLine={'underline'} cursor={'pointer'} onClick={() => window.location.href = value.url}>{value.item}</Text>
                                     ))
                                 }
                             </Flex>
